@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.scss"],"names":[],"mappings":"AAAA,UACI,SAAU,CACV,QAAS,CACT,YAAa,CACb,YAAa,CACb,sBAAuB,CACvB,kBAAmB","file":"main.feabd919.chunk.css","sourcesContent":["html, body {\n    padding: 0;\n    margin: 0;\n    height: 100vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}"]}
