@@ -14,13 +14,20 @@ $blue_purple: #7093FF;
 $black: #02241F;
 $white: #FFFCF0;
 
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: $open_sans;
     color: $black;
+}
+
+// Navbar
+nav {
+    display: block;
+
+    li {
+        display: inline-block;
+    }
 }
