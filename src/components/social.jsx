@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.scss';
 import { Link } from "react-router-dom";
+import Resume from '../assets/RichardChanResume2020.pdf'
 
 const Social = () => (
     <div className="social">
@@ -19,7 +20,7 @@ const Social = () => (
                     <a href="https://github.com/rchrdchn" rel="noopener noreferrer" target="_blank">github</a>
                 </li>
                 <li>
-                    <a href="images/RichardChanResume2020.pdf" rel="noopener noreferrer" target="_blank">resume</a>
+                    <a href={Resume} rel="noopener noreferrer" target="_blank">resume</a>
                 </li>
             </ul>
         </div>
