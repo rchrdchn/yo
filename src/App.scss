@@ -1,3 +1,6 @@
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Gelasio:600|Open+Sans&display=swap');
+
 // FONTS
 $gelasio: 'Gelasio', serif;
 $open_sans: 'Open Sans', sans-serif;
@@ -14,20 +17,104 @@ $blue_purple: #7093FF;
 $black: #02241F;
 $white: #FFFCF0;
 
+// Responsiveness
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+/* MIXINS - Mobile-first Approach */
+@mixin sm {
+	@media (min-width: #{$screen-sm-min}) {
+		@content;
+	}
+}
+@mixin md {
+	@media (min-width: #{$screen-md-min}) {
+		@content;
+	}
+}
+@mixin lg {
+	@media (min-width: #{$screen-lg-min}) {
+		@content;
+	}
+}
+@mixin xl {
+	@media (min-width: #{$screen-xl-min}) {
+		@content;
+	}
+}
+
 html,
 body {
-    padding: 0;
-    margin: 0;
+    padding: 0px 20px;
+    margin: 0px auto;
     height: 100vh;
     font-family: $open_sans;
     color: $black;
+    max-width: 800px;
+}
+
+ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+        color: $red;
+        border-radius: 4px;
+        border-bottom: 4px solid $red;
+        transition: all;
+    }
 }
 
 // Navbar
-nav {
-    display: block;
+.navbar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 30px 0px;
 
-    li {
-        display: inline-block;
+    &_left {
+        a {
+            font-size: 24px;
+
+            @include sm {
+                font-size: 36px;
+            }
+
+            &:hover {
+                border-radius: none;
+                border-bottom: none;
+            }
+        }
+    }
+
+    &_right {
+        a {
+            font-size: 14px;
+            margin-left: 8px;
+            margin-right: 8px;
+            
+            @include sm {
+                font-size: 18px;
+                margin-left: 12px;
+                margin-right: 12px;
+            }
+        }
     }
 }
+
+// Home
+
+// Now
+
+// Contact
+

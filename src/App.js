@@ -10,23 +10,25 @@ import Home from './components/home';
 import Now from './components/now';
 import Contact from './components/contact';
 
-function App() {
+const App = () => {
 	return (
 		<Router>
-			<div>
-				<Navbar />
-				<Switch>
-					<Route exact path="/">
-						<Home />
-					</Route>
-					<Route path="/now">
-						<Now />
-					</Route>
-					<Route path="/contact">
-						<Contact/>
-					</Route>
-				</Switch>
-			</div>
+			<section className="section">
+				<div class="container">
+					<Navbar />
+					<Switch>
+						<Route exact path="/">
+							<Home />
+						</Route>
+						<Route path="/now">
+							<Now />
+						</Route>
+						<Route path="/contact">
+							<Contact/>
+						</Route>
+					</Switch>
+				</div>
+			</section>
 		</Router>
 	);
 }
