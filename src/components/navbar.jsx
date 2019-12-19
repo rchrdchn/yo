@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => (
     <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar_left">
-            <Link to="/">Richard Chan</Link>
+            <h1><Link to="/">Richard Chan</Link></h1>
         </div>
         <div className="navbar_right">
             <Link to="/now">Now</Link>

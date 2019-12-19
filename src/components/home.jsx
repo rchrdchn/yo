@@ -9,7 +9,7 @@ import Exploring from '../assets/exploring.jpg';
 const Home = () => (
     <div className="home">
         <div>
-            <h4>My site is designed and built with only what's needed. No more, no less.</h4>
+            <h4>My page is designed and built with only what's needed. No more, no less.</h4>
         </div>
         <div>
             <h2>Me in 30 seconds</h2>
