@@ -8,7 +8,6 @@ import './App.scss';
 import Navbar from './components/navbar';
 import Home from './components/home';
 import Now from './components/now';
-import Contact from './components/contact';
 
 const App = () => {
 	return (
@@ -22,9 +21,6 @@ const App = () => {
 						</Route>
 						<Route path="/now">
 							<Now />
-						</Route>
-						<Route path="/contact">
-							<Contact/>
 						</Route>
 					</Switch>
 				</div>

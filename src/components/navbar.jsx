@@ -9,7 +9,7 @@ const Navbar = () => (
         </div>
         <div className="navbar_right">
             <Link to="/now">/ Now</Link>
-            <Link to="/contact">/ Contact</Link>
+            <a href="mailto:richardchanme@gmail.com">/ Contact</a>
         </div>
     </nav>
 )
