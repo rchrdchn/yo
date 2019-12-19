@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import Running from '../assets/running.jpg';
-import Family from '../assets/family.jpg';
-import Learning from '../assets/learning.jpg';
-import Soccer from '../assets/soccer.jpg';
-import Exploring from '../assets/exploring.jpg';
+import Running from '../assets/photos/running.jpg';
+import Family from '../assets/photos/family.jpg';
+import Learning from '../assets/photos/learning.jpg';
+import Soccer from '../assets/photos/soccer.jpg';
+import Exploring from '../assets/photos/exploring.jpg';
 
 import Resume from '../assets/RichardChanResume2020.pdf';
 
@@ -31,7 +31,7 @@ const Home = () => (
             <p>Check out my <Link to="/now"><strong>"now"</strong></Link> page</p>
         </div>
         <div>
-            <h2>Contact me?</h2>
+            <h2>So, contact me?</h2>
             <p>I enjoy making new friends and connecting with people around the world.</p>
             <p><a href="mailto:richardchanme@gmail.com"><strong>Say hi</strong> <span role="img" aria-label="hi">👋</span></a> - I try replying to all emails</p>
             <p>Connect with me on <a href="https://www.linkedin.com/in/rchrdchn/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a></p>

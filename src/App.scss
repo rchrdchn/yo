@@ -212,3 +212,51 @@ a {
         }
     }
 }
+
+// Readings
+
+.reads {
+    &_current {
+        
+    }
+
+    &_past {
+
+    }
+
+    &_book {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+        align-items: flex-start;
+        padding: 1rem 0;
+        border-top: 1px solid #717171;
+        font-size: 0.8rem;
+    }
+
+    &_cover {
+        flex: 0.2;
+        align-self: auto;
+
+        img {
+            display: inline;
+            margin: 0;
+            max-width: 80px;
+        }
+    }
+
+    &_metadata {
+        flex: 0.8;
+        align-self: auto;
+
+        h3 {
+            font-size: 0.9rem;
+            margin-top: 0;
+        }
+        p {
+            margin: 0.5rem 0;
+        }
+    }
+}

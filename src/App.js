@@ -8,11 +8,12 @@ import './App.scss';
 import Navbar from './components/navbar';
 import Home from './components/home';
 import Now from './components/now';
+import Readings from './components/readings';
 
 const App = () => {
 	return (
 		<Router>
-			<div class="container">
+			<div className="container">
 			<Navbar />
 				<Switch>
 					<Route exact path="/">
@@ -20,6 +21,9 @@ const App = () => {
 					</Route>
 					<Route path="/now">
 						<Now />
+					</Route>
+					<Route path="/readings">
+						<Readings />
 					</Route>
 				</Switch>
 			</div>
