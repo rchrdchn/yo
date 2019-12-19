@@ -8,23 +8,23 @@ import './App.scss';
 import Navbar from './components/navbar';
 import Home from './components/home';
 import Now from './components/now';
+import Social from './components/social';
 
 const App = () => {
 	return (
 		<Router>
-			<section className="section">
-				<div class="container">
-					<Navbar />
-					<Switch>
-						<Route exact path="/">
-							<Home />
-						</Route>
-						<Route path="/now">
-							<Now />
-						</Route>
-					</Switch>
-				</div>
-			</section>
+			<div class="container">
+			<Navbar />
+			<Social />
+				<Switch>
+					<Route exact path="/">
+						<Home />
+					</Route>
+					<Route path="/now">
+						<Now />
+					</Route>
+				</Switch>
+			</div>
 		</Router>
 	);
 }
