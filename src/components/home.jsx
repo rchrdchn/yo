@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+
 import Running from '../assets/running.jpg';
 import Family from '../assets/family.jpg';
 import Learning from '../assets/learning.jpg';
 import Soccer from '../assets/soccer.jpg';
 import Exploring from '../assets/exploring.jpg';
+
+import Resume from '../assets/RichardChanResume2020.pdf';
 
 const Home = () => (
     <div className="home">
@@ -33,6 +36,7 @@ const Home = () => (
             <p><a href="mailto:richardchanme@gmail.com"><strong>Say hi</strong> <span role="img" aria-label="hi">👋</span></a> - I try replying to all emails</p>
             <p>Connect with me on <a href="https://www.linkedin.com/in/rchrdchn/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a></p>
             <p>Check out what I've been working on: <a href="https://github.com/rchrdchn" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a></p>
+            <p>Take a look at <a href={Resume} target="_blank" rel="noopener noreferrer"><strong>my resume</strong></a></p>
         </div>
         <div className="home_photos">
             <h2>Photos <span>click to expand</span></h2>
