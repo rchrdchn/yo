@@ -1,5 +1,5 @@
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Gelasio:600|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gelasio:700|Open+Sans:400,600&display=swap');
 
 // FONTS
 $gelasio: 'Gelasio', serif;
@@ -54,8 +54,13 @@ body {
     margin: 0px auto;
     height: 100vh;
     font-family: $open_sans;
+    font-size: 16px;
     color: $black;
     max-width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $gelasio;
 }
 
 ul, li, p {
@@ -81,10 +86,12 @@ a {
     align-items: baseline;
     justify-content: space-between;
     padding: 30px 0px;
+    border-bottom: 1px solid $yellow;
 
     &_left {
         a {
-            font-size: 24px;
+            font-size: 26px;
+            font-family: $gelasio;
 
             @include sm {
                 font-size: 36px;
@@ -115,6 +122,49 @@ a {
 // Home
 
 // Now
+.now {
+    padding-bottom: 50px;
+
+    &_section {
+        h1 {
+            font-size: 24px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        a {
+            color: $red;
+
+            &:hover {
+                border-radius: 4px;
+                border-bottom: 4px solid $red;
+            }
+        }
+        &:last-of-type {
+            margin-top: 40px;
+        }
+
+        &.reads {
+            display: block;
+
+            @include sm {
+                display: flex;
+                flex: 1 1;
+            }
+        }
+        &_reads {
+            @include sm {
+                flex: 1;
+            }
+            ul {
+                li {
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+
+}
 
 // Contact
 
