@@ -65,20 +65,23 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $gelasio;
 }
 
-ul, li, p {
-    margin: 0;
-    padding: 0;
+ul, li {
+    padding: 0px;
+    margin: 0px;
 }
 
 a {
     text-decoration: none;
     color: $black;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 
     &:hover {
         color: $red;
         border-radius: 4px;
         border-bottom: 4px solid $red;
-        transition: all;
     }
 }
 
@@ -91,55 +94,67 @@ a {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding: 14px 0px;
     border-bottom: 1px solid $yellow;
 
-    a {
-        font-size: 26px;
-        font-family: $gelasio;
-
-        @include sm {
-            font-size: 36px;
-        }
-
-        &:hover {
-            border-radius: none;
-            border-bottom: none;
-        }
-    }
-}
-
-// Social
-.social {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1;
-    letter-spacing: .1em;
-    -webkit-transition: opacity .3s ease-in-out;
-    -o-transition: opacity .3s ease-in-out;
-    -moz-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out;
-
-    @include sm {
-        text-align: right;
-    }
-
-    .social_items {
-        ul {
-            display: inline-block;
-            
-            li {
-                display: inline-block;
-                margin-right: 10px;
+    &_left {
+        a {
+            font-size: 26px;
+            font-family: $gelasio;
+    
+            @include sm {
+                font-size: 36px;
+            }
+    
+            &:hover {
+                border-radius: none;
+                border-bottom: none;
             }
         }
     }
+
+    &_right {
+        a {
+            font-size: 12px;
+            margin-left: 8px;
+            margin-right: 8px;
+            font-weight: 600;
+            line-height: 0.7;
+            letter-spacing: .1em;
+            opacity: 1;
+            text-transform: uppercase;
+
+            @include sm {
+                font-size: 14px;
+            }
+        }
+    }
+
 }
 
 // Home
+.home {
+    a {
+        color: $red;
+    }
+
+    &_photos {
+        h2 {
+            span {
+                color: $blue;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border: 1px solid $black;
+            border-radius: 8px;
+            margin-right: 5px;
+        }
+    }
+}
 
 // Now
 .now {

@@ -4,7 +4,7 @@ import '../App.scss';
 const Now = () => (
     <div className="now">
         <div className="now_section">
-            <h1>What I’m doing now…</h1>
+            <h1>What I’m doing now</h1>
         </div>
         <div className="now_section">
             <h3>Work <span role="img" aria-label="emoji">👨‍💻</span></h3>

@@ -8,14 +8,12 @@ import './App.scss';
 import Navbar from './components/navbar';
 import Home from './components/home';
 import Now from './components/now';
-import Social from './components/social';
 
 const App = () => {
 	return (
 		<Router>
 			<div class="container">
 			<Navbar />
-			<Social />
 				<Switch>
 					<Route exact path="/">
 						<Home />
