@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d9ca1866f9c2312ae1f99feac820688",
+    "revision": "6d3ae8b6a2c07460a044cfc984aec9b4",
     "url": "/index.html"
   },
   {
-    "revision": "c5283f6cf12621a8025f",
+    "revision": "28ec9922526b589dbe33",
     "url": "/static/css/main.cd078f36.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f652ba8f.chunk.js.LICENSE"
   },
   {
-    "revision": "c5283f6cf12621a8025f",
-    "url": "/static/js/main.f9df1d5b.chunk.js"
+    "revision": "28ec9922526b589dbe33",
+    "url": "/static/js/main.b5fe0cd9.chunk.js"
   },
   {
     "revision": "65929b50180444b1792b",
     "url": "/static/js/runtime-main.c667adde.js"
   },
   {
-    "revision": "cc0a331b6ed4b6150d2393baf439c11f",
-    "url": "/static/media/RichardChanResume2020.cc0a331b.pdf"
+    "revision": "735e357f1b2750c8e4a9c08aa3a549d6",
+    "url": "/static/media/RichardChanResume2020.735e357f.pdf"
   },
   {
     "revision": "ee38490709931d06008db037962df7fe",
