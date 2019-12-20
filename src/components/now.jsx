@@ -29,10 +29,12 @@ const Now = () => (
             <p>I often write <em>raw thoughts</em> here – it's my scratchpad: <a rel='noreferrer noopener' href="https://notyourtypicalasian.com" target="_blank">https://notyourtypicalasian.com</a></p>
         </div>
         <div className="now_section">
-            <h3>Currently reading <span role="img" aria-label="emoji">📚</span></h3>
+            <div className="reads">
+                <h3>Currently reading <span role="img" aria-label="emoji">📚</span></h3>
+                <p><Link to="/readings">Complete reading list</Link></p>
+            </div>
             <div>
                 {renderBooks(books, true)}
-                <p>You can <Link to="/readings">see my complete reading list</Link></p>
             </div>
         </div>
         <div className="now_section">
