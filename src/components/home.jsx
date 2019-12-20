@@ -16,8 +16,8 @@ const Home = () => (
         </div>
         <div>
             <h2>Me in 30 seconds</h2>
-            <p><strong>Curious.</strong> I want to learn and understand as many new concepts, ideas, frameworks, mental and business models, philosophies, lifestyles as possible.</p>
-            <p><strong>Driven.</strong> I work tirelessly and single-mindedly in the pursuit of my life goals.</p>
+            <p><strong>Curious.</strong> I will learn what I don't know. I want to learn and understand as many new concepts, ideas, frameworks, mental and business models, philosophies, lifestyles as possible.</p>
+            <p><strong>Driven.</strong> I work tirelessly and single-mindedly in the pursuit of my life goals. I'm not complacent and I'm willing to do what it takes.</p>
             <p><strong>Resilient.</strong> Fall seven times, get up eight. I never give up working for what I want in life, even if it takes me a lifetime to get there.</p>
             <p><strong>Passionate.</strong> I narrowed down my interests to only a handful, so I can deliberately put my focus, heart and passion to pursue each one of them.</p>
             <p><strong>Competitive.</strong> I have a sportsman mindset. I play to win, but I'm nothing without my team, so I always put the team first.</p>
