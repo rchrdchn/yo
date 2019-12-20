@@ -1,5 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.scss';
+import books from './books.js';
+import { renderBooks } from './readings';
 
 const Now = () => (
     <div className="now">
@@ -25,33 +28,11 @@ const Now = () => (
             <h3>Writings <span role="img" aria-label="emoji">📝</span></h3>
             <p>I often write <em>raw thoughts</em> here – it's my scratchpad: <a rel='noreferrer noopener' href="https://notyourtypicalasian.com" target="_blank">https://notyourtypicalasian.com</a></p>
         </div>
-        <div className="now_section reads">
-            <div className="now_section_reads">
-                <h3>Currently reading <span role="img" aria-label="emoji">📚</span></h3>
-                <ul>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/2PBamaQ" target="_blank">Homo Deus</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/2SdahMd" target="_blank">Upheaval</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/2S56D6U" target="_blank">Cien Años de Soledad</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/35NAqEY" target="_blank">Medidations</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/2S6LVne" target="_blank">From Ramen to Riches</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/2EyGaqo" target="_blank">My Turn: A Life of Total Football</a></li>
-                </ul>
-            </div>
-            <div className="now_section_reads">
-                <h3>Completed <span role="img" aria-label="emoji">📚</span></h3>
-                <ul>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/38VGHAv" target="_blank">The Courage to be Disliked</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/35BaiNR" target="_blank">Anything You Want</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/2rS77CO" target="_blank">Sapiens</a></li>
-                    <li><a rel='noreferrer noopener' href="https://basecamp.com/shapeup" target="_blank">Shape Up</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/35AiCgx" target="_blank">Daily Stoics</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/38RNtHF" target="_blank">Zen Mind, Beginner's Mind</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/34DNsng" target="_blank">Rich People Problems</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/2S63VxZ" target="_blank">Shoe Dog: A Memoir by the Creator of Nike</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/34CNqfg" target="_blank">The Manual: A Philosopher's Guide to Life</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/38UjpLm" target="_blank">Essentialism: The Disciplined Pursuit of Less</a></li>
-                    <li><a rel='noreferrer noopener' href="https://amzn.to/35BM9GH" target="_blank">Ikigai: The Japanese Secret to a Long and Happy Life</a></li>
-                </ul>
+        <div className="now_section">
+            <h3>Currently reading <span role="img" aria-label="emoji">📚</span></h3>
+            <div>
+                {renderBooks(books, true)}
+                <p>You can <Link to="/readings">see my complete reading list</Link></p>
             </div>
         </div>
         <div className="now_section">

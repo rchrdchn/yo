@@ -186,44 +186,14 @@ a {
             }
         }
         &:last-of-type {
-            margin-top: 40px;
-        }
-
-        &.reads {
-            display: block;
-
-            @include sm {
-                display: flex;
-                flex: 1 1;
-            }
-        }
-        &_reads {
-            @include sm {
-                flex: 1;
-            }
-            ul {
-                li {
-                    list-style-type: none;
-                }
-            }
-        }
-        &:last-of-type {
             font-size: 14px;
+            margin-top: 40px;
         }
     }
 }
 
 // Readings
-
 .reads {
-    &_current {
-        
-    }
-
-    &_past {
-
-    }
-
     &_book {
         display: flex;
         flex-direction: row;
@@ -232,7 +202,7 @@ a {
         align-content: stretch;
         align-items: flex-start;
         padding: 1rem 0;
-        border-top: 1px solid #717171;
+        border-top: 1px solid $blue;
         font-size: 0.8rem;
     }
 
@@ -252,8 +222,10 @@ a {
         align-self: auto;
 
         h3 {
-            font-size: 0.9rem;
             margin-top: 0;
+            a {
+                color: $red;
+            }
         }
         p {
             margin: 0.5rem 0;
