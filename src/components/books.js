@@ -5,6 +5,9 @@ import Anything from '../assets/covers/anything.jpg';
 import Child from '../assets/covers/child.jpg';
 import ChinaRich from '../assets/covers/china-rich.jpg';
 import CienAnos from '../assets/covers/cien-anos.jpg';
+import MambaMentality from '../assets/covers/mamba-mentality.jpg';
+import RideOfLifetime from '../assets/covers/ride-of-lifetime.jpg';
+import SmallStuff from '../assets/covers/small-stuff.jpg';
 import Courage from '../assets/covers/courage.jpg';
 import CrazyRich from '../assets/covers/crazy-rich.jpg';
 import Crazy from '../assets/covers/crazy.jpg';
@@ -74,6 +77,27 @@ const Books = [
         "cover": CienAnos,
         "link": "https://amzn.to/2S56D6U",
         "reading": true
+    },
+    {
+        "title": "Don't Sweat the Small Stuff ",
+        "author": "Richard Carlson",
+        "cover": SmallStuff,
+        "link": "https://amzn.to/2J8NZVZ",
+        "reading": true
+    },
+    {
+        "title": "The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company",
+        "author": "Robert Iger",
+        "cover": RideOfLifetime,
+        "link": "https://amzn.to/2Uco1Hm",
+        "reading": false
+    },
+    {
+        "title": "The Mamba Mentality: How I Play",
+        "author": "Kobe Bryant",
+        "cover": MambaMentality,
+        "link": "https://amzn.to/2JaM0jX",
+        "reading": false
     },
     {
         "title": "Medidations",
