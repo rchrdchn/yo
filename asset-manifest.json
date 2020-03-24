@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.60c97b79.chunk.css",
-    "main.js": "/static/js/main.9ba24c80.chunk.js",
-    "main.js.map": "/static/js/main.9ba24c80.chunk.js.map",
+    "main.css": "/static/css/main.e9965515.chunk.css",
+    "main.js": "/static/js/main.b027fe28.chunk.js",
+    "main.js.map": "/static/js/main.b027fe28.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c667adde.js",
     "runtime-main.js.map": "/static/js/runtime-main.c667adde.js.map",
-    "static/js/2.602b453a.chunk.js": "/static/js/2.602b453a.chunk.js",
-    "static/js/2.602b453a.chunk.js.map": "/static/js/2.602b453a.chunk.js.map",
+    "static/js/2.72211686.chunk.js": "/static/js/2.72211686.chunk.js",
+    "static/js/2.72211686.chunk.js.map": "/static/js/2.72211686.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1d254fe69b14e1692e6f50b53ec9218f.js": "/precache-manifest.1d254fe69b14e1692e6f50b53ec9218f.js",
+    "precache-manifest.488e44b0f229c9f420116e207b6f49c0.js": "/precache-manifest.488e44b0f229c9f420116e207b6f49c0.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.60c97b79.chunk.css.map": "/static/css/main.60c97b79.chunk.css.map",
-    "static/js/2.602b453a.chunk.js.LICENSE": "/static/js/2.602b453a.chunk.js.LICENSE",
+    "static/css/main.e9965515.chunk.css.map": "/static/css/main.e9965515.chunk.css.map",
+    "static/js/2.72211686.chunk.js.LICENSE": "/static/js/2.72211686.chunk.js.LICENSE",
     "static/media/RichardChanResume2020.pdf": "/static/media/RichardChanResume2020.735e357f.pdf",
     "static/media/alchemist.jpg": "/static/media/alchemist.32dab8c1.jpg",
     "static/media/aleph.jpg": "/static/media/aleph.79e58b2e.jpg",
@@ -34,6 +34,7 @@
     "static/media/liderazgo.jpg": "/static/media/liderazgo.fcf5725d.jpg",
     "static/media/logic.jpg": "/static/media/logic.393bb71c.jpg",
     "static/media/make-time.jpg": "/static/media/make-time.32bacf15.jpg",
+    "static/media/mamba-mentality.jpg": "/static/media/mamba-mentality.4253a278.jpg",
     "static/media/maverick.jpg": "/static/media/maverick.0ee7e4b0.jpg",
     "static/media/me.jpg": "/static/media/me.1c75397b.jpg",
     "static/media/meaning.jpg": "/static/media/meaning.2601b8d2.jpg",
@@ -44,10 +45,12 @@
     "static/media/remote.jpg": "/static/media/remote.36e47a68.jpg",
     "static/media/rework.jpg": "/static/media/rework.9486738f.jpg",
     "static/media/rich-people.jpg": "/static/media/rich-people.1a2ff5fc.jpg",
+    "static/media/ride-of-lifetime.jpg": "/static/media/ride-of-lifetime.72891e1f.jpg",
     "static/media/road-less.jpg": "/static/media/road-less.9bfc6f75.jpg",
     "static/media/running.jpg": "/static/media/running.f029b452.jpg",
     "static/media/sapiens.jpg": "/static/media/sapiens.4b43bf26.jpg",
     "static/media/simeone.jpg": "/static/media/simeone.5a0d8e93.jpg",
+    "static/media/small-stuff.jpg": "/static/media/small-stuff.40b3be1c.jpg",
     "static/media/soccer.jpg": "/static/media/soccer.939c2d63.jpg",
     "static/media/steve-jobs.jpg": "/static/media/steve-jobs.12471b5e.jpg",
     "static/media/tiger.jpg": "/static/media/tiger.8bab01c5.jpg",
@@ -58,8 +61,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c667adde.js",
-    "static/js/2.602b453a.chunk.js",
-    "static/css/main.60c97b79.chunk.css",
-    "static/js/main.9ba24c80.chunk.js"
+    "static/js/2.72211686.chunk.js",
+    "static/css/main.e9965515.chunk.css",
+    "static/js/main.b027fe28.chunk.js"
   ]
 }
