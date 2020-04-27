@@ -50,10 +50,10 @@ const App = () => {
 					<Route exact path="/">
 						<Home />
 					</Route>
-					<Route path="/now">
+					<Route exact path="/now">
 						<Now />
 					</Route>
-					<Route path="/readings">
+					<Route exact path="/readings">
 						<Readings />
 					</Route>
 				</Switch>
