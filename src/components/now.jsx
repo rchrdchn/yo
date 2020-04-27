@@ -11,19 +11,21 @@ const Now = () => (
         </div>
         <div className="now_section">
             <h3>Work <span role="img" aria-label="emoji">👨‍💻</span></h3>
-            <p>I've been working at <a rel='noreferrer noopener' href="https://www.successfactors.com/index.html" target="_blank">SAP SuccessFactors</a> as a Frontend Engineer for close to a year.</p>
+            <p>I've been at <a rel='noreferrer noopener' href="https://www.successfactors.com/index.html" target="_blank">SAP SuccessFactors</a> as a UI Engineer for over a year now building its new generation of software products from a reimagined point-of-view using ReactJS.</p>
 
             <h3>Travels <span role="img" aria-label="emoji">✈️</span></h3>
-            <p>I recently lived in Rome, Italy and travelled around Europe visiting friends (Berlin, Munich, Prague, Florence, Geneva, Lausanne, Madrid, and Mallorca). You can follow <a rel='noreferrer noopener' href="https://www.instagram.com/rchrdchn" target="_blank">my journey here</a>!</p>
+            <p>After coming back from living in Rome and traveling around Europe, there hasn't been much in the plans for the current year as COVID-19 is occuring. Hopefully, one day when the epidemic is over we can start planning travels again. You can check out all my travels <a rel='noreferrer noopener' href="https://www.instagram.com/rchrdchn" target="_blank">here</a>!</p>
 
             <h3>Running ‍<span role="img" aria-label="emoji">🏃‍♂️</span></h3>
-            <p>At the end of September, I ran the Berlin marathon, one of the six <a rel='noreferrer noopener' href="https://www.worldmarathonmajors.com/" target="_blank">World Major Marathons</a>. It was a tough tough tough marathon under rainy, windy, and cold conditions! I struggled really hard, but kept pushing until the finish line recording a 4-hour running time.</p>
+            <p>I decided to stick to my one-marathon-per-year plan, so choosing San Francisco was natural since I don't have to travel far away or adapt to a different time zone. However, I decided to take the challenge of being not only a trainee, but a pacer for my training running club - RUN365 - this time around... But, COVID-19 happened and I made the decision to stop training at a marathon pace while we are in lockdown to make sure family is safe.</p>
             
-            <h3>Study abroad reunion <span role="img" aria-label="emoji">🇨🇿</span></h3>
-            <p>My Hong Kong exchange friends and I recently met up in Prague, Czech Republic for our 5th consecutive study abroad reunion. Previous meetups were: New York '15, San Francisco '16, Barcelona '17, and New York '18.</p>
+            <h3>Study abroad reunion <span role="img" aria-label="emoji">📱</span></h3>
+            <p>My Hong Kong exchange friends and I hangout over videochats now given the current state of affairs. And simply because we all have our own things going on...</p>
 
             <h3>New habits <span role="img" aria-label="emoji">🧘‍♂️</span></h3>
-            <p>I’ve doubled down on long-term habits and continued many new habits I started last year: daily meditations, yoga, readings, journaling, and trying to sleep 8 hours. However, I'll add some new ones going forward: no alcohol, reduce the amount of protein in my daily meals, and reduce sugar and coffee intake.</p>
+            <p>I keep going back to the basics because it just works: 8 hours of sleep, daily meditations, yoga. I need to improve my reading, journaling, and experimenting with code habits.</p>
+            <p>Good news: no amount of alcohol in over six months.</p>
+            <p>Bad news: increased amount of caffeine over the past two months.</p>
 
             <h3>Writings <span role="img" aria-label="emoji">📝</span></h3>
             <p>I often write <em>raw thoughts</em> here – it's my scratchpad: <a rel='noreferrer noopener' href="https://notyourtypicalasian.com" target="_blank">https://notyourtypicalasian.com</a></p>
@@ -38,7 +40,7 @@ const Now = () => (
             </div>
         </div>
         <div className="now_section">
-            <p><em>This page was updated Dec 18, 2019. Inspired by <a rel='noreferrer noopener' href="https://sivers.org" target="_blank">Derek Sivers</a> and his <a rel='noreferrer noopener' href="https://sivers.org/now">/now</a> page.</em></p>
+            <p><em>This page was updated April 26, 2020. Inspired by <a rel='noreferrer noopener' href="https://sivers.org" target="_blank">Derek Sivers</a> and his <a rel='noreferrer noopener' href="https://sivers.org/now">/now</a> page.</em></p>
         </div>
     </div>
 )

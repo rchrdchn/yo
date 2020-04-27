@@ -16,6 +16,10 @@ $teal: #2AEE06;
 $blue_purple: #7093FF;
 $black: #02241F;
 $white: #FFFCF0;
+$dark-mode-black: #1a1919;
+$dark-mode-white: #999;
+$dark-mode-black-nav: #1b2938;
+$dark-mode-white: #f1f1f1;
 
 // Responsiveness
 $screen-sm-min: 576px;
@@ -50,213 +54,217 @@ $screen-xl-min: 1200px;
 
 html,
 body {
-    max-width: 720px;
-    color: $black;
-    background-color: $white;
-    padding: 0px 20px;
-    margin: 0px auto;
-    box-sizing: border-box;
-    outline: 0;
-    height: 100%;
-    font-family: $open_sans;
-    font-size: 16px;
+	max-width: 720px;
+	color: $black;
+	background-color: $white;
+	padding: 0px 20px;
+	margin: 0px auto;
+	box-sizing: border-box;
+	outline: 0;
+	height: 100%;
+	font-family: $open_sans;
+	font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $gelasio;
+	font-family: $gelasio;
 }
 
 ul, li {
-    padding: 0px;
-    margin: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 
 a {
-    text-decoration: none;
-    color: $black;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+	text-decoration: none;
+	color: $black;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 
-    &:hover {
-        color: $red;
-        border-radius: 4px;
-        border-bottom: 4px solid $red;
-    }
+	&:hover {
+		color: $red;
+		border-radius: 4px;
+		border-bottom: 4px solid $red;
+	}
 }
 
 .container {
-    margin: 30px auto 60px;
+	margin: 30px auto 60px;
 }
 
 // Navbar
 .navbar {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    padding: 14px 0px;
-    border-bottom: 1px solid $yellow;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	padding: 14px 0px;
+	border-bottom: 1px solid $yellow;
 
-    &_left {
-        h1 {
-            margin: 0px;
-        }
-        a {
-            font-size: 26px;
-            font-family: $gelasio;
-    
-            @include sm {
-                font-size: 36px;
-            }
-    
-            &:hover {
-                border-radius: none;
-                border-bottom: none;
-            }
-        }
-    }
-    &_right {
-        a {
-            font-size: 12px;
-            margin-left: 8px;
-            margin-right: 8px;
-            font-weight: 600;
-            line-height: 0.7;
-            letter-spacing: .1em;
-            opacity: 1;
-            text-transform: uppercase;
+	&_left {
+		h1 {
+			margin: 0px;
+		}
+		a {
+			font-size: 26px;
+			font-family: $gelasio;
 
-            @include sm {
-                font-size: 14px;
-            }
-        }
-    }
+			@include sm {
+				font-size: 36px;
+			}
+
+			&:hover {
+				border-radius: none;
+				border-bottom: none;
+			}
+		}
+	}
+	&_right {
+		display: flex;
+		align-items: center;
+		
+		a {
+			font-size: 12px;
+			margin-left: 8px;
+			margin-right: 8px;
+			font-weight: 600;
+			line-height: 0.7;
+			letter-spacing: .1em;
+			opacity: 1;
+			text-transform: uppercase;
+
+			@include sm {
+				font-size: 14px;
+			}
+		}
+	}
 
 }
 
 // Home
 .home {
-    div:first-of-type {
-        margin-bottom: 20px;
+	div:first-of-type {
+		margin-bottom: 20px;
 
-        @include sm {
-            margin-bottom: 40px;
-        }
-    }
+		@include sm {
+			margin-bottom: 40px;
+		}
+	}
 
-    a {
-        color: $red;
-    }
+	a {
+		color: $red;
+	}
 
-    &_photos {
-        h2 {
-            span {
-                color: $blue;
-                font-size: 12px;
-                font-weight: 400;
-            }
-        }
-        img {
-            width: 100px;
-            height: 100px;
-            border: 1px solid $black;
-            border-radius: 8px;
-            margin-right: 5px;
-        }
-    }
+	&_photos {
+		h2 {
+			span {
+				color: $blue;
+				font-size: 12px;
+				font-weight: 400;
+			}
+		}
+		img {
+			width: 100px;
+			height: 100px;
+			border: 1px solid $black;
+			border-radius: 8px;
+			margin-right: 5px;
+		}
+	}
 }
 
 // Now
 .now {
-    padding-bottom: 50px;
+	padding-bottom: 50px;
 
-    &_section {
-        h1 {
-            font-size: 24px;
-        }
-        .reads {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            
-            h3 {
-                font-size: 18px;
-                
-                @include sm {
-                    font-size: 20px;
-                }
-            }
-            p {
-                font-size: 10px;
-                font-weight: 600;
-                text-transform: uppercase;
+	&_section {
+		h1 {
+			font-size: 24px;
+		}
+		.reads {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
 
-                @include sm {
-                    font-size: 11px;
-                }
-            }
-        }
-        a {
-            color: $red;
+			h3 {
+				font-size: 18px;
 
-            &:hover {
-                border-radius: 4px;
-                border-bottom: 4px solid $red;
-            }
-        }
-        &:last-of-type {
-            font-size: 14px;
-            margin-top: 40px;
-        }
-    }
+				@include sm {
+					font-size: 20px;
+				}
+			}
+			p {
+				font-size: 10px;
+				font-weight: 600;
+				text-transform: uppercase;
+
+				@include sm {
+					font-size: 11px;
+				}
+			}
+		}
+		a {
+			color: $red;
+
+			&:hover {
+				border-radius: 4px;
+				border-bottom: 4px solid $red;
+			}
+		}
+		&:last-of-type {
+			font-size: 14px;
+			margin-top: 40px;
+		}
+	}
 }
 
 // Readings
 .reads {
-    &_book {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-content: stretch;
-        align-items: flex-start;
-        padding: 1rem 0;
-        border-top: 1px solid $blue;
-        font-size: 0.8rem;
-    }
+	&_book {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-content: stretch;
+		align-items: flex-start;
+		padding: 1rem 0;
+		border-top: 1px solid $blue;
+		font-size: 0.8rem;
+	}
 
-    &_cover {
-        flex: 0.3;
-        align-self: auto;
+	&_cover {
+		flex: 0.3;
+		align-self: auto;
 
-        @include sm {
-            flex: 0.2;
-        }
+		@include sm {
+			flex: 0.2;
+		}
 
-        img {
-            display: inline;
-            margin: 0;
-            max-width: 80px;
-        }
-    }
+		img {
+			display: inline;
+			margin: 0;
+			max-width: 80px;
+		}
+	}
 
-    &_metadata {
-        flex: 0.7;
-        align-self: auto;
+	&_metadata {
+		flex: 0.7;
+		align-self: auto;
 
-        @include sm {
-            flex: 0.8;
-        }
+		@include sm {
+			flex: 0.8;
+		}
 
-        h3 {
-            margin-top: 0;
-            a {
-                color: $red;
-            }
-        }
-        p {
-            margin: 0.5rem 0;
-        }
-    }
+		h3 {
+			margin-top: 0;
+			a {
+				color: $red;
+			}
+		}
+		p {
+			margin: 0.5rem 0;
+		}
+	}
 }
+
