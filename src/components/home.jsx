@@ -13,7 +13,7 @@ const Home = () => (
                 <span role="img" aria-label="mailbox">📮</span><a href="mailto:chan@hey.com"><strong>chan@hey.com</strong></a><span> /</span>
                 <span role="img" aria-label="linkedin">👨‍💻</span><a href="https://www.linkedin.com/in/rchrdchn/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a><span> /</span>
                 <span role="img" aria-label="github">🖥</span><a href="https://github.com/rchrdchn" target="_blank" rel="noopener noreferrer"><strong>GitHub </strong></a><span> /</span>
-                <span role="img" aria-label="resume">🔖</span><a href={Resume} target="_blank" rel="noopener noreferrer"><strong>Resume</strong></a>
+                <span role="img" aria-label="resume">📄</span><a href={Resume} target="_blank" rel="noopener noreferrer"><strong>Resume</strong></a>
             </p>
         </div>
         <div>
