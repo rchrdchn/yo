@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7bfd2468e7ba007965e3f5860b876d7",
+    "revision": "0c9a125b7867d99de4b7325a1435e6cd",
     "url": "/index.html"
   },
   {
-    "revision": "b4824b2646a312cc28eb",
-    "url": "/static/css/main.a9dec1cd.chunk.css"
+    "revision": "eeb8e521c095407fab09",
+    "url": "/static/css/main.d8d8665d.chunk.css"
   },
   {
-    "revision": "87230279f1559a85c73f",
-    "url": "/static/js/2.72211686.chunk.js"
+    "revision": "ef1b6a91d3eb87f673c5",
+    "url": "/static/js/2.0344d969.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/static/js/2.72211686.chunk.js.LICENSE"
+    "url": "/static/js/2.0344d969.chunk.js.LICENSE"
   },
   {
-    "revision": "b4824b2646a312cc28eb",
-    "url": "/static/js/main.6303103c.chunk.js"
+    "revision": "eeb8e521c095407fab09",
+    "url": "/static/js/main.ae394e29.chunk.js"
   },
   {
     "revision": "65929b50180444b1792b",
@@ -68,14 +68,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/elon.00fdcba5.jpg"
   },
   {
-    "revision": "ee38490709931d06008db037962df7fe",
-    "url": "/static/media/exploring.ee384907.jpg"
-  },
-  {
-    "revision": "fb419d04c595ac5077d54710b8bb3389",
-    "url": "/static/media/family.fb419d04.jpg"
-  },
-  {
     "revision": "b4356ca713d589c1a2c9992815ace8e5",
     "url": "/static/media/feynman.b4356ca7.jpg"
   },
@@ -92,12 +84,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/happiness.4e1ef3c9.jpg"
   },
   {
-    "revision": "7a315cb268102500bbabc1e18cc9007a",
-    "url": "/static/media/influence.7a315cb2.jpg"
+    "revision": "fdc1ed3876233bb9597254c9d10a8d1b",
+    "url": "/static/media/hell-yeah-or-no.fdc1ed38.png"
   },
   {
-    "revision": "ea251e342170b5ae1d4bdb870d1a6aa7",
-    "url": "/static/media/learning.ea251e34.jpg"
+    "revision": "7a315cb268102500bbabc1e18cc9007a",
+    "url": "/static/media/influence.7a315cb2.jpg"
   },
   {
     "revision": "fcf5725d1fb09829139ebf7d9b471f91",
@@ -164,12 +156,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/road-less.9bfc6f75.jpg"
   },
   {
-    "revision": "f029b4522ea216c4875e648a55ebf3cc",
-    "url": "/static/media/running.f029b452.jpg"
-  },
-  {
     "revision": "4b43bf2613ee09212e438f5e28011002",
     "url": "/static/media/sapiens.4b43bf26.jpg"
+  },
+  {
+    "revision": "99867bdf8c0a4166c52ba4d0ac4266bc",
+    "url": "/static/media/sex-and-vanity.99867bdf.jpg"
   },
   {
     "revision": "5a0d8e93ad66f8d39d0dfdacb8c10e2a",
@@ -180,12 +172,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/small-stuff.40b3be1c.jpg"
   },
   {
-    "revision": "939c2d637840dc5f5b47ebcd5021c5da",
-    "url": "/static/media/soccer.939c2d63.jpg"
-  },
-  {
     "revision": "12471b5ed2dfc1948e24363cbea732da",
     "url": "/static/media/steve-jobs.12471b5e.jpg"
+  },
+  {
+    "revision": "dcb7a8f6ed8dce8c13a2013f13fb2cd1",
+    "url": "/static/media/sun-her-flowers.dcb7a8f6.jpg"
   },
   {
     "revision": "8bab01c54a04509f5bbc7c7a1524566b",
