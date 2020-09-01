@@ -91,6 +91,14 @@ a {
 	margin: 30px auto 60px;
 }
 
+.title {
+	display: inline-block;
+	border-radius: 5px;
+	background-color: $red;
+	padding: 6px;
+	margin: 4px 0px;
+}
+
 // Navbar
 .navbar {
 	display: flex;
@@ -141,6 +149,8 @@ a {
 
 // Home
 .home {
+	margin-bottom: 48px;
+
 	div:first-of-type {
 		margin-bottom: 20px;
 
@@ -151,6 +161,21 @@ a {
 
 	a {
 		color: $red;
+	}
+
+	p {
+		span {
+			margin-right: 8px;
+		}
+	}
+
+	.short {
+		p {
+			strong {
+				border-bottom-color: $yellow;
+				border-bottom: 2px solid $yellow;
+			}
+		}
 	}
 
 	&_photos {
