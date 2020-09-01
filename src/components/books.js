@@ -22,6 +22,7 @@ import Feynman from '../assets/covers/feynman.jpg';
 import GoodLife from '../assets/covers/good-life.jpg';
 import GoodParts from '../assets/covers/good-parts.jpg';
 import Happiness from '../assets/covers/happiness.jpg';
+import HellYeahOrNo from '../assets/covers/hell-yeah-or-no.png';
 import HerrPep from '../assets/covers/herr-pep.jpg';
 import HomoDeus from '../assets/covers/homo-deus.jpg';
 import Ikigai from '../assets/covers/ikigai.jpg';
@@ -46,7 +47,9 @@ import RichPeople from '../assets/covers/rich-people.jpg';
 import RoadLess from '../assets/covers/road-less.jpg';
 import Sapiens from '../assets/covers/sapiens.jpg';
 import ShoeDog from '../assets/covers/shoe-dog.jpg';
+import SexAndVanity from '../assets/covers/sex-and-vanity.jpg';
 import Simeone from '../assets/covers/simeone.jpg';
+import SunAndHerFlowers from '../assets/covers/sun-her-flowers.jpg';
 import SteveJobs from '../assets/covers/steve-jobs.jpg';
 import Tiger from '../assets/covers/tiger.jpg';
 import Upheaval from '../assets/covers/upheaval.jpg';
@@ -57,6 +60,27 @@ import Zlatan from '../assets/covers/zlatan.jpg';
 
 
 const Books = [
+    {
+        "title": "Hell Year or No",
+        "author": "Yuval Noah Harari",
+        "cover": HellYeahOrNo,
+        "link": "https://sive.rs/n",
+        "reading": true
+    },
+    {
+        "title": "Sex and Vanity",
+        "author": "Kevin Kwan",
+        "cover": SexAndVanity,
+        "link": "https://smile.amazon.com/dp/B085D7WQP4/",
+        "reading": true
+    },
+    {
+        "title": "The Sun and Her Flowers",
+        "author": "Rupi Kaur",
+        "cover": SunAndHerFlowers,
+        "link": "https://smile.amazon.com/dp/B073PFFJQ8",
+        "reading": false
+    },
     {
         "title": "Homo Deus",
         "author": "Yuval Noah Harari",
@@ -83,7 +107,7 @@ const Books = [
         "author": "Richard Carlson",
         "cover": SmallStuff,
         "link": "https://amzn.to/2J8NZVZ",
-        "reading": true
+        "reading": false
     },
     {
         "title": "The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company",
@@ -118,7 +142,7 @@ const Books = [
         "author": "Johan Cruyff",
         "cover": MyTurn,
         "link": "https://amzn.to/2EyGaqo",
-        "reading": true
+        "reading": false
     },
     {
         "title": "The Courage to be Disliked",
