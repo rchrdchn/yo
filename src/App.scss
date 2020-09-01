@@ -15,11 +15,8 @@ $orange: #FFA05F;
 $teal: #2AEE06;
 $blue_purple: #7093FF;
 $black: #02241F;
+$black_bg: #1a1919;
 $white: #FFFCF0;
-$dark-mode-black: #1a1919;
-$dark-mode-white: #999;
-$dark-mode-black-nav: #1b2938;
-$dark-mode-white: #f1f1f1;
 
 // Responsiveness
 $screen-sm-min: 576px;
@@ -55,8 +52,8 @@ $screen-xl-min: 1200px;
 html,
 body {
 	max-width: 720px;
-	color: $black;
-	background-color: $white;
+	color: $white;
+	background-color: $black_bg;
 	padding: 0px 20px;
 	margin: 0px auto;
 	box-sizing: border-box;
@@ -77,7 +74,7 @@ ul, li {
 
 a {
 	text-decoration: none;
-	color: $black;
+	color: $white;
 	-webkit-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
