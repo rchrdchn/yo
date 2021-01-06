@@ -1,3 +1,5 @@
+import ArtOfWar from '../assets/covers/art-of-war.jpg';
+import AlmanackNaval from '../assets/covers/almanack-naval.jpeg';
 import Black from '../assets/covers/black.png';
 import Alchemist from '../assets/covers/alchemist.jpg';
 import Aleph from '../assets/covers/aleph.jpg';
@@ -5,6 +7,8 @@ import Anything from '../assets/covers/anything.jpg';
 import Child from '../assets/covers/child.jpg';
 import ChinaRich from '../assets/covers/china-rich.jpg';
 import CienAnos from '../assets/covers/cien-anos.jpg';
+import ComputerScience from '../assets/covers/computer-science-short-intro.jpg';
+import DemandSalesSide from '../assets/covers/demand-sales-side.jpg';
 import MambaMentality from '../assets/covers/mamba-mentality.jpg';
 import RideOfLifetime from '../assets/covers/ride-of-lifetime.jpg';
 import SmallStuff from '../assets/covers/small-stuff.jpg';
@@ -27,6 +31,7 @@ import HerrPep from '../assets/covers/herr-pep.jpg';
 import HomoDeus from '../assets/covers/homo-deus.jpg';
 import Ikigai from '../assets/covers/ikigai.jpg';
 import Influence from '../assets/covers/influence.jpg';
+import IntelligentInvestor from '../assets/covers/intelligent-investor.jpg';
 import Liderazgo from '../assets/covers/liderazgo.jpg';
 import Logic from '../assets/covers/logic.jpg';
 import MakeTime from '../assets/covers/make-time.jpg';
@@ -47,6 +52,7 @@ import RichPeople from '../assets/covers/rich-people.jpg';
 import RoadLess from '../assets/covers/road-less.jpg';
 import Sapiens from '../assets/covers/sapiens.jpg';
 import ShoeDog from '../assets/covers/shoe-dog.jpg';
+import Seneca from '../assets/covers/seneca.jpg';
 import SexAndVanity from '../assets/covers/sex-and-vanity.jpg';
 import Simeone from '../assets/covers/simeone.jpg';
 import SunAndHerFlowers from '../assets/covers/sun-her-flowers.jpg';
@@ -55,24 +61,74 @@ import Tiger from '../assets/covers/tiger.jpg';
 import Upheaval from '../assets/covers/upheaval.jpg';
 import Virgin from '../assets/covers/virgin.jpg';
 import HowToWinFriends from '../assets/covers/win-friends.jpg';
+import YourMusicAndPeople from '../assets/covers/your-music-and-people.png';
 import ZenMind from '../assets/covers/zen-mind.jpg';
 import Zlatan from '../assets/covers/zlatan.jpg';
 
 
 const Books = [
     {
+        "title": "The Intelligent Investor",
+        "author": "Benjamin Graham",
+        "cover": IntelligentInvestor,
+        "link": "https://smile.amazon.com/dp/0060555661",
+        "reading": true
+    },
+    {
+        "title": "Computer Science - A Very Short Introduction",
+        "author": "Subrata Dasgupta",
+        "cover": ComputerScience,
+        "link": "https://smile.amazon.com/dp/0198733461",
+        "reading": true
+    },
+    {
+        "title": "Demand-Side Sales",
+        "author": "Bob Moesta",
+        "cover": DemandSalesSide,
+        "link": "https://smile.amazon.com/dp/1544509960",
+        "reading": true
+    },
+    {
+        "title": "The Art of War",
+        "author": "Sun Tzu",
+        "cover": ArtOfWar,
+        "link": "https://smile.amazon.com/dp/081331951X",
+        "reading": true
+    },
+    {
+        "title": "Seneca's Letters From a Stoic",
+        "author": "Seneca",
+        "cover": Seneca,
+        "link": "https://smile.amazon.com/dp/0486811247",
+        "reading": true
+    },
+    {
+        "title": "The Almanack of Naval Ravikant",
+        "author": "Eric Jorgenson",
+        "cover": AlmanackNaval,
+        "link": "https://smile.amazon.com/dp/B08FF8MTM6",
+        "reading": true
+    },
+    {
+        "title": "Your Music and People",
+        "author": "Derek Sivers",
+        "cover": YourMusicAndPeople,
+        "link": "https://sive.rs/m",
+        "reading": false
+    },
+    {
         "title": "Hell Year or No",
-        "author": "Yuval Noah Harari",
+        "author": "Derek Sivers",
         "cover": HellYeahOrNo,
         "link": "https://sive.rs/n",
-        "reading": true
+        "reading": false
     },
     {
         "title": "Sex and Vanity",
         "author": "Kevin Kwan",
         "cover": SexAndVanity,
         "link": "https://smile.amazon.com/dp/B085D7WQP4/",
-        "reading": true
+        "reading": false
     },
     {
         "title": "The Sun and Her Flowers",
@@ -86,21 +142,21 @@ const Books = [
         "author": "Yuval Noah Harari",
         "cover": HomoDeus,
         "link": "https://amzn.to/2PBamaQ",
-        "reading": true
+        "reading": false
     },
     {
         "title": "Upheaval",
         "author": " Jared Diamond",
         "cover": Upheaval,
         "link": "https://amzn.to/2SdahMd",
-        "reading": true
+        "reading": false
     },
     {
         "title": "Cien Años de Soledad",
         "author": "Gabriel García Márquez",
         "cover": CienAnos,
         "link": "https://amzn.to/2S56D6U",
-        "reading": true
+        "reading": false
     },
     {
         "title": "Don't Sweat the Small Stuff ",
