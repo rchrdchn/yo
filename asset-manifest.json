@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.01d80d28.chunk.css",
-    "main.js": "/static/js/main.1142c60d.chunk.js",
-    "main.js.map": "/static/js/main.1142c60d.chunk.js.map",
+    "main.css": "/static/css/main.ef0df7b0.chunk.css",
+    "main.js": "/static/js/main.3b47ffbf.chunk.js",
+    "main.js.map": "/static/js/main.3b47ffbf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c542aba9.js",
     "runtime-main.js.map": "/static/js/runtime-main.c542aba9.js.map",
-    "static/js/2.b43f662f.chunk.js": "/static/js/2.b43f662f.chunk.js",
-    "static/js/2.b43f662f.chunk.js.map": "/static/js/2.b43f662f.chunk.js.map",
+    "static/js/2.b1ee5c23.chunk.js": "/static/js/2.b1ee5c23.chunk.js",
+    "static/js/2.b1ee5c23.chunk.js.map": "/static/js/2.b1ee5c23.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b64135e0cb113cbcae2ecef5daeefe2f.js": "/precache-manifest.b64135e0cb113cbcae2ecef5daeefe2f.js",
+    "precache-manifest.f94f1464f2a80498f12929dc216d2314.js": "/precache-manifest.f94f1464f2a80498f12929dc216d2314.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.01d80d28.chunk.css.map": "/static/css/main.01d80d28.chunk.css.map",
-    "static/js/2.b43f662f.chunk.js.LICENSE.txt": "/static/js/2.b43f662f.chunk.js.LICENSE.txt",
+    "static/css/main.ef0df7b0.chunk.css.map": "/static/css/main.ef0df7b0.chunk.css.map",
+    "static/js/2.b1ee5c23.chunk.js.LICENSE.txt": "/static/js/2.b1ee5c23.chunk.js.LICENSE.txt",
     "static/media/RichardChanResume2021.pdf": "/static/media/RichardChanResume2021.d12b6200.pdf",
     "static/media/alchemist.jpg": "/static/media/alchemist.32dab8c1.jpg",
     "static/media/aleph.jpg": "/static/media/aleph.79e58b2e.jpg",
@@ -19,8 +19,10 @@
     "static/media/child.jpg": "/static/media/child.c80b01fa.jpg",
     "static/media/china-rich.jpg": "/static/media/china-rich.96e6c042.jpg",
     "static/media/cien-anos.jpg": "/static/media/cien-anos.9824fe1a.jpg",
+    "static/media/computer-science-short-intro.jpg": "/static/media/computer-science-short-intro.180a283f.jpg",
     "static/media/crazy.jpg": "/static/media/crazy.d0172968.jpg",
     "static/media/day-to-day.jpg": "/static/media/day-to-day.ba1b381f.jpg",
+    "static/media/demand-sales-side.jpg": "/static/media/demand-sales-side.bf1b612e.jpg",
     "static/media/designer.jpg": "/static/media/designer.069b5b5d.jpg",
     "static/media/eat-and-run.jpg": "/static/media/eat-and-run.69d806f6.jpg",
     "static/media/elon.jpg": "/static/media/elon.00fdcba5.jpg",
@@ -30,6 +32,7 @@
     "static/media/happiness.jpg": "/static/media/happiness.4e1ef3c9.jpg",
     "static/media/hell-yeah-or-no.png": "/static/media/hell-yeah-or-no.fdc1ed38.png",
     "static/media/influence.jpg": "/static/media/influence.7a315cb2.jpg",
+    "static/media/intelligent-investor.jpg": "/static/media/intelligent-investor.4e07fe6f.jpg",
     "static/media/liderazgo.jpg": "/static/media/liderazgo.fcf5725d.jpg",
     "static/media/logic.jpg": "/static/media/logic.393bb71c.jpg",
     "static/media/make-time.jpg": "/static/media/make-time.32bacf15.jpg",
@@ -62,8 +65,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c542aba9.js",
-    "static/js/2.b43f662f.chunk.js",
-    "static/css/main.01d80d28.chunk.css",
-    "static/js/main.1142c60d.chunk.js"
+    "static/js/2.b1ee5c23.chunk.js",
+    "static/css/main.ef0df7b0.chunk.css",
+    "static/js/main.3b47ffbf.chunk.js"
   ]
 }
