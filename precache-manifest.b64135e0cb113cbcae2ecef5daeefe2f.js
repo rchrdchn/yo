@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a42fe8e4a5dd99eb45e23b44a352e7a5",
+    "revision": "9a76bcf9209b00b7699065c44fa1c311",
     "url": "/index.html"
   },
   {
-    "revision": "bd4131905c8d2602fddc",
-    "url": "/static/css/main.78f76b93.chunk.css"
+    "revision": "8cae45214ba8805402bd",
+    "url": "/static/css/main.01d80d28.chunk.css"
   },
   {
-    "revision": "85d6a1f5c9a496426539",
-    "url": "/static/js/2.485fb038.chunk.js"
+    "revision": "af13727066cbf713d8eb",
+    "url": "/static/js/2.b43f662f.chunk.js"
   },
   {
-    "revision": "058c14a89d808fe8a38664b65e903dd7",
-    "url": "/static/js/2.485fb038.chunk.js.LICENSE"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/static/js/2.b43f662f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd4131905c8d2602fddc",
-    "url": "/static/js/main.930e1878.chunk.js"
+    "revision": "8cae45214ba8805402bd",
+    "url": "/static/js/main.1142c60d.chunk.js"
   },
   {
     "revision": "0934e5a0629121a12638",
     "url": "/static/js/runtime-main.c542aba9.js"
   },
   {
-    "revision": "735e357f1b2750c8e4a9c08aa3a549d6",
-    "url": "/static/media/RichardChanResume2020.735e357f.pdf"
+    "revision": "d12b6200bf1c0d50da3d12cd20a6ab08",
+    "url": "/static/media/RichardChanResume2021.d12b6200.pdf"
   },
   {
     "revision": "32dab8c1597cb32ff7bf70e91c823408",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "79e58b2e60ab6334c4c5a8cd4d3cf32e",
     "url": "/static/media/aleph.79e58b2e.jpg"
+  },
+  {
+    "revision": "367c12865f278804b92a66f53d058f6c",
+    "url": "/static/media/art-of-war.367c1286.jpg"
   },
   {
     "revision": "c80b01fa1be6f31de23821a622d0b128",
@@ -160,6 +164,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sapiens.4b43bf26.jpg"
   },
   {
+    "revision": "c89ea15e812a67ea4bee4dcdaf0378dd",
+    "url": "/static/media/seneca.c89ea15e.jpg"
+  },
+  {
     "revision": "99867bdf8c0a4166c52ba4d0ac4266bc",
     "url": "/static/media/sex-and-vanity.99867bdf.jpg"
   },
@@ -194,6 +202,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b910c9b5cb2a519f6516162ea148fc2",
     "url": "/static/media/win-friends.7b910c9b.jpg"
+  },
+  {
+    "revision": "7244b2381aa31458f72d4637acc67685",
+    "url": "/static/media/your-music-and-people.7244b238.png"
   },
   {
     "revision": "16df2a4bcea118eae7a30dd9e5ac18e6",
