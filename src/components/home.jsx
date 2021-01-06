@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Resume from '../assets/RichardChanResume2020.pdf';
+import Resume from '../assets/RichardChanResume2021.pdf';
 
 const Home = () => (
     <div className="home">
@@ -8,21 +8,21 @@ const Home = () => (
             <h4>My page is designed and built with only what's needed. No more, no less.</h4>
         </div>
         <div>
-            <h2 class="title">Contact</h2>
+            <h2 className="title">Contact</h2>
             <p>
                 <span role="img" aria-label="mailbox">📮</span><a href="mailto:chan@hey.com"><strong>chan@hey.com</strong></a><span> /</span>
                 <span role="img" aria-label="linkedin">👨‍💻</span><a href="https://www.linkedin.com/in/rchrdchn/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a><span> /</span>
                 <span role="img" aria-label="github">🖥</span><a href="https://github.com/rchrdchn" target="_blank" rel="noopener noreferrer"><strong>GitHub </strong></a><span> /</span>
-                <span role="img" aria-label="resume">📄</span><a href={Resume} target="_blank" rel="noopener noreferrer"><strong>Resume</strong></a>
+                <span role="img" aria-label="resume">📄</span><a href={Resume} download="RichardChanResume" rel="noopener noreferrer"><strong>Resume</strong></a>
             </p>
         </div>
         <div>
-            <h2 class="title">What am I doing now?</h2>
+            <h2 className="title">What am I doing now?</h2>
             <p><span role="img" aria-label="now">👋</span>Check out my <Link to="/now"><strong>"now"</strong></Link> page</p>
             <p><span role="img" aria-label="blog">📝</span>Blogging at <a href="http://notyourtypicalasian.com/" target="_blank" rel="noopener noreferrer"><strong>www.notyourtypicalasian.com</strong></a></p>
         </div>
-        <div class="short">
-            <h2 class="title">Me in 30 seconds</h2>
+        <div className="short">
+            <h2 className="title">Me in 30 seconds</h2>
             <p><strong>Curious.</strong> I learn what I don't know. I want to learn and understand as many new concepts, ideas, mental and business frameworks, philosophies, lifestyles as possible.</p>
             <p><strong>Driven.</strong> I work tirelessly and single-mindedly in the pursuit of my life goals. I'm not complacent and I'm willing to do what it takes.</p>
             <p><strong>Resilient.</strong> Fall seven times, get up eight. I never give up working for what I want in life, even if it takes me a lifetime to get there.</p>
