@@ -5,7 +5,7 @@ import Resume from '../assets/RichardChanResume2021.pdf';
 const Home = () => (
     <div className="home">
         <div>
-            <h4>My page is designed and built with only what's needed. No more, no less.</h4>
+            <h4>This site is designed and built with only what's needed. No more, no less.</h4>
         </div>
         <div>
             <h2 className="title">Contact</h2>

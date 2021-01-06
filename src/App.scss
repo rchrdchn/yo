@@ -52,9 +52,9 @@ $screen-xl-min: 1200px;
 html,
 body {
 	max-width: 720px;
-	color: $white;
-	background-color: $black_bg;
-	padding: 0px 20px;
+	color: $black;
+	background-color: $white;
+	padding: 10px 20px 0px;
 	margin: 0px auto;
 	box-sizing: border-box;
 	outline: 0;
@@ -74,7 +74,7 @@ ul, li {
 
 a {
 	text-decoration: none;
-	color: $white;
+	color: $black;
 	-webkit-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -92,10 +92,12 @@ a {
 }
 
 .title {
+	color: $white;
+	font-size: 1.25rem;
 	display: inline-block;
 	border-radius: 5px;
-	background-color: $red;
-	padding: 6px;
+	background-color: $black;
+	padding: 6px 12px;
 	margin: 4px 0px;
 }
 
@@ -105,7 +107,7 @@ a {
 	align-items: baseline;
 	justify-content: space-between;
 	padding: 14px 0px;
-	border-bottom: 1px solid $yellow;
+	border-bottom: 1px solid $red;
 
 	&_left {
 		h1 {
@@ -126,9 +128,6 @@ a {
 		}
 	}
 	&_right {
-		display: flex;
-		align-items: center;
-		
 		a {
 			font-size: 12px;
 			margin-left: 8px;
@@ -154,10 +153,6 @@ a {
 
 	div:first-of-type {
 		margin-bottom: 20px;
-
-		@include sm {
-			margin-bottom: 40px;
-		}
 	}
 
 	a {
@@ -173,8 +168,7 @@ a {
 	.short {
 		p {
 			strong {
-				border-bottom-color: $yellow;
-				border-bottom: 2px solid $yellow;
+				border-bottom: 3px solid $red;
 			}
 		}
 	}
@@ -198,7 +192,7 @@ a {
 }
 
 // Now
-.now {
+.now, .gear {
 	padding-top: 16px;
 	padding-bottom: 48px;
 
@@ -214,8 +208,7 @@ a {
 		&:nth-of-type(2) {
 			h3 {
 				display: inline-block;
-				border-bottom-color: $yellow;
-				border-bottom: 2px solid $yellow;
+				border-bottom: 3px solid $red;
 				margin: 0;
 			}
 		}
@@ -249,10 +242,6 @@ a {
 				border-radius: 4px;
 				border-bottom: 4px solid $red;
 			}
-		}
-		&:last-of-type {
-			font-size: 14px;
-			margin-top: 40px;
 		}
 	}
 }
