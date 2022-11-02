@@ -27,7 +27,7 @@ const Home = () => (
             <p><strong>Driven.</strong> I work tirelessly and single-mindedly in the pursuit of my life goals. I'm not complacent and I'm willing to do what it takes.</p>
             <p><strong>Resilient.</strong> Fall seven times, get up eight. I never give up working for what I want in life, even if it takes me a lifetime to get there.</p>
             <p><strong>Passionate.</strong> I narrowed down my interests to only a handful, so I can deliberately put my focus, heart and passion to pursue each one of them.</p>
-            <p><strong>Competitive.</strong> I have a sportsman mindset. I play to win, but I'm nothing without my team, so I always put the team first.</p>
+            <p><strong>Competitive.</strong> I have an athlete mindset. I play to win, but I'm nothing without my team, so I always put the team first.</p>
             <p><strong>Kind-hearted.</strong> I enjoy being a friend of my friends, being genuine, honest and caring, and last, but not least, I enjoy giving back.</p>
             <p><strong>Long-term thinker.</strong> All I do is for the future self. I want to regret nothing when I'm 80.</p>
             <p><strong>Multi-cultural.</strong> Born in California. Raised in Venezuela. Studied in Venezuela, California, and Hong Kong. Currently living in the Bay Area.</p>
