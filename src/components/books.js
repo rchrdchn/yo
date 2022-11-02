@@ -1,6 +1,7 @@
 import ArtOfWar from '../assets/covers/art-of-war.jpg';
 import AlmanackNaval from '../assets/covers/almanack-naval.jpeg';
 import Black from '../assets/covers/black.png';
+import Build from '../assets/covers/build.jpg';
 import Alchemist from '../assets/covers/alchemist.jpg';
 import Aleph from '../assets/covers/aleph.jpg';
 import Anything from '../assets/covers/anything.jpg';
@@ -8,7 +9,9 @@ import Child from '../assets/covers/child.jpg';
 import ChinaRich from '../assets/covers/china-rich.jpg';
 import CienAnos from '../assets/covers/cien-anos.jpg';
 import ComputerScience from '../assets/covers/computer-science-short-intro.jpg';
+import DayTraveForLiving from '../assets/covers/day-trade-for-living.jpeg';
 import DemandSalesSide from '../assets/covers/demand-sales-side.jpg';
+import DontMakeMeThink from '../assets/covers/dont-make-me-think.jpg';
 import MambaMentality from '../assets/covers/mamba-mentality.jpg';
 import RideOfLifetime from '../assets/covers/ride-of-lifetime.jpg';
 import SmallStuff from '../assets/covers/small-stuff.jpg';
@@ -29,12 +32,15 @@ import Happiness from '../assets/covers/happiness.jpg';
 import HellYeahOrNo from '../assets/covers/hell-yeah-or-no.png';
 import HerrPep from '../assets/covers/herr-pep.jpg';
 import HomoDeus from '../assets/covers/homo-deus.jpg';
+import HowToLive from '../assets/covers/how-to-live.jpeg';
 import Ikigai from '../assets/covers/ikigai.jpg';
 import Influence from '../assets/covers/influence.jpg';
 import IntelligentInvestor from '../assets/covers/intelligent-investor.jpg';
+import Kimi from '../assets/covers/kimi.jpg';
 import Liderazgo from '../assets/covers/liderazgo.jpg';
 import Logic from '../assets/covers/logic.jpg';
 import MakeTime from '../assets/covers/make-time.jpg';
+import ManSolvedMarket from '../assets/covers/man-solved-market.jpeg';
 import Manual from '../assets/covers/manual.jpg';
 import Maverick from '../assets/covers/maverick.jpg';
 import Me from '../assets/covers/me.jpg';
@@ -46,9 +52,11 @@ import NeverSplitTheDifference from '../assets/covers/never-split.jpg';
 import Pep from '../assets/covers/pep.jpg';
 import Potential from '../assets/covers/potential.jpg';
 import RamenToRiches from '../assets/covers/ramen-to-riches.jpg';
+import ReadyPlayerOne from '../assets/covers/ready-player-one.jpeg';
 import Remote from '../assets/covers/remote.jpg';
 import Rework from '../assets/covers/rework.jpg';
 import RichPeople from '../assets/covers/rich-people.jpg';
+import RichestManInBabylon from '../assets/covers/richest-man-in-babylon.jpeg';
 import RoadLess from '../assets/covers/road-less.jpg';
 import Sapiens from '../assets/covers/sapiens.jpg';
 import ShoeDog from '../assets/covers/shoe-dog.jpg';
@@ -57,7 +65,9 @@ import SexAndVanity from '../assets/covers/sex-and-vanity.jpg';
 import Simeone from '../assets/covers/simeone.jpg';
 import SunAndHerFlowers from '../assets/covers/sun-her-flowers.jpg';
 import SteveJobs from '../assets/covers/steve-jobs.jpg';
+import StoicChallenge from '../assets/covers/stoic-challenge.jpg';
 import Tiger from '../assets/covers/tiger.jpg';
+import ThinkingInBets from '../assets/covers/thinking-in-bets.jpeg';
 import Upheaval from '../assets/covers/upheaval.jpg';
 import Virgin from '../assets/covers/virgin.jpg';
 import HowToWinFriends from '../assets/covers/win-friends.jpg';
@@ -68,46 +78,116 @@ import Zlatan from '../assets/covers/zlatan.jpg';
 
 const Books = [
     {
+      "title": "Build",
+      "author": "Tony Fadell",
+      "cover": Build,
+      "link": "https://smile.amazon.com/Build-Unorthodox-Guide-Making-Things-ebook/dp/B09BNJ6GBV",
+      "reading": true
+    },
+    {
+      "title": "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability",
+      "author": "Krug Steve",
+      "cover": DontMakeMeThink,
+      "link": "https://smile.amazon.com/Dont-Make-Think-Revisited-Usability-ebook/dp/B00HJUBRPG",
+      "reading": false
+    },
+    {
+      "title": "The Unknown Kimi Raikkonen",
+      "author": "Kari Hotakainen",
+      "cover": Kimi,
+      "link": "https://smile.amazon.com/Kimi-Raikkonen-Kari-Hotakainen/dp/1471177696",
+      "reading": false
+    },
+    {
+      "title": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts",
+      "author": "Annie Duke",
+      "cover": ThinkingInBets,
+      "link": "https://smile.amazon.com/Thinking-Bets-Making-Smarter-Decisions-ebook/dp/B074DG9LQF",
+      "reading": true
+    },
+    {
+      "title": "Ready Player One",
+      "author": "Ernest Cline",
+      "cover": ReadyPlayerOne,
+      "link": "https://smile.amazon.com/Ready-Player-One-Ernest-Cline-ebook/dp/B004J4WKUQ",
+      "reading": false
+    },
+    {
+      "title": "How to Live: 27 conflicting answers and one weird conclusion",
+      "author": "Derek Sivers",
+      "cover": HowToLive,
+      "link": "https://smile.amazon.com/How-Live-conflicting-answers-conclusion-ebook/dp/B09Y7P4DR6",
+      "reading": false
+    },
+    {
+      "title": "How to Day Trade for a Living: A Beginner's Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology",
+      "author": "Andrew Aziz",
+      "cover": DayTraveForLiving,
+      "link": "https://smile.amazon.com/How-Day-Trade-Living-Management-ebook/dp/B012C4AU10",
+      "reading": false
+    },
+    {
+      "title": "The Man Who Solved the Market: How Jim Simons Launched the Quant Revolution",
+      "author": "Gregory Zuckerman",
+      "cover": ManSolvedMarket,
+      "link": "https://smile.amazon.com/Man-Who-Solved-Market-Revolution-ebook/dp/B07P1NNTSD",
+      "reading": false
+    },
+    {
+      "title": "The Richest Man In Babylon",
+      "author": "George S Clason",
+      "cover": RichestManInBabylon,
+      "link": "https://smile.amazon.com/Richest-Man-Babylon-Original-ebook/dp/B08LSYY7GG",
+      "reading": false
+    },
+    {
+      "title": "The Stoic Challenge: A Philosopher's Guide to Becoming Tougher, Calmer, and More Resilient",
+      "author": "William B. Irvine",
+      "cover": StoicChallenge,
+      "link": "https://smile.amazon.com/Stoic-Challenge-Philosophers-Becoming-Resilient-ebook/dp/B07P9DC6TY",
+      "reading": false
+    },
+    {
         "title": "The Intelligent Investor",
         "author": "Benjamin Graham",
         "cover": IntelligentInvestor,
         "link": "https://smile.amazon.com/dp/0060555661",
-        "reading": true
+        "reading": false
     },
     {
         "title": "Computer Science - A Very Short Introduction",
         "author": "Subrata Dasgupta",
         "cover": ComputerScience,
         "link": "https://smile.amazon.com/dp/0198733461",
-        "reading": true
+        "reading": false
     },
     {
         "title": "Demand-Side Sales",
         "author": "Bob Moesta",
         "cover": DemandSalesSide,
         "link": "https://smile.amazon.com/dp/1544509960",
-        "reading": true
+        "reading": false
     },
     {
         "title": "The Art of War",
         "author": "Sun Tzu",
         "cover": ArtOfWar,
         "link": "https://smile.amazon.com/dp/081331951X",
-        "reading": true
+        "reading": false
     },
     {
         "title": "Seneca's Letters From a Stoic",
         "author": "Seneca",
         "cover": Seneca,
         "link": "https://smile.amazon.com/dp/0486811247",
-        "reading": true
+        "reading": false
     },
     {
         "title": "The Almanack of Naval Ravikant",
         "author": "Eric Jorgenson",
         "cover": AlmanackNaval,
         "link": "https://smile.amazon.com/dp/B08FF8MTM6",
-        "reading": true
+        "reading": false
     },
     {
         "title": "Your Music and People",
