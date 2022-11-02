@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0acb12f2b35ce33f57846c8c4044ffc0",
+    "revision": "5b46c2e195383d19f70b7f87e9f3d8d1",
     "url": "/index.html"
   },
   {
-    "revision": "1274e945f0f873b3000d",
-    "url": "/static/css/main.ef0df7b0.chunk.css"
+    "revision": "d6c5d4f03cc90e134caf",
+    "url": "/static/css/main.52446fc1.chunk.css"
   },
   {
-    "revision": "8d892b79a4cfab539a03",
-    "url": "/static/js/2.b1ee5c23.chunk.js"
+    "revision": "329e065fe2d81565dc8f",
+    "url": "/static/js/2.4b560a0a.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.b1ee5c23.chunk.js.LICENSE.txt"
+    "revision": "9b318b6fb13190fe82c0677e9264b3c7",
+    "url": "/static/js/2.4b560a0a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1274e945f0f873b3000d",
-    "url": "/static/js/main.3b47ffbf.chunk.js"
+    "revision": "d6c5d4f03cc90e134caf",
+    "url": "/static/js/main.e7dcb99e.chunk.js"
   },
   {
-    "revision": "0934e5a0629121a12638",
-    "url": "/static/js/runtime-main.c542aba9.js"
+    "revision": "157a50056bda11baa36c",
+    "url": "/static/js/runtime-main.8d18a890.js"
   },
   {
     "revision": "d12b6200bf1c0d50da3d12cd20a6ab08",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "367c12865f278804b92a66f53d058f6c",
     "url": "/static/media/art-of-war.367c1286.jpg"
+  },
+  {
+    "revision": "45ef0e88814398d6b3c6232f32dc2737",
+    "url": "/static/media/build.45ef0e88.jpg"
   },
   {
     "revision": "c80b01fa1be6f31de23821a622d0b128",
@@ -64,12 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/day-to-day.ba1b381f.jpg"
   },
   {
+    "revision": "51e2a20977a7d848c251623105681d8a",
+    "url": "/static/media/day-trade-for-living.51e2a209.jpeg"
+  },
+  {
     "revision": "bf1b612e408b268ab86b6e70a8c9f2f5",
     "url": "/static/media/demand-sales-side.bf1b612e.jpg"
   },
   {
     "revision": "069b5b5db40437f7aae62ba141810382",
     "url": "/static/media/designer.069b5b5d.jpg"
+  },
+  {
+    "revision": "f170186623d1e3ddb66bf90f5ceb542b",
+    "url": "/static/media/dont-make-me-think.f1701866.jpg"
   },
   {
     "revision": "69d806f6f95214ae4c61c261de2ac2de",
@@ -100,12 +112,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hell-yeah-or-no.fdc1ed38.png"
   },
   {
+    "revision": "451d38244de383a5faed7d2c7ea1bc38",
+    "url": "/static/media/how-to-live.451d3824.jpeg"
+  },
+  {
     "revision": "7a315cb268102500bbabc1e18cc9007a",
     "url": "/static/media/influence.7a315cb2.jpg"
   },
   {
     "revision": "4e07fe6fef32b17106df6a423bc96fa9",
     "url": "/static/media/intelligent-investor.4e07fe6f.jpg"
+  },
+  {
+    "revision": "7079e4b795691d30dbf4fb6c53473283",
+    "url": "/static/media/kimi.7079e4b7.jpg"
   },
   {
     "revision": "fcf5725d1fb09829139ebf7d9b471f91",
@@ -122,6 +142,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4253a278a87b25618d28cc28c3d8605a",
     "url": "/static/media/mamba-mentality.4253a278.jpg"
+  },
+  {
+    "revision": "bec40607c4690f843e96c88819f4674d",
+    "url": "/static/media/man-solved-market.bec40607.jpeg"
   },
   {
     "revision": "0ee7e4b07c7c7ad948834049e21883d2",
@@ -152,6 +176,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/potential.268b5f6f.jpg"
   },
   {
+    "revision": "4d7fd4bbc65c557543eb6b95eeb06561",
+    "url": "/static/media/ready-player-one.4d7fd4bb.jpeg"
+  },
+  {
     "revision": "36e47a68570d80b0341d3605cdac5f45",
     "url": "/static/media/remote.36e47a68.jpg"
   },
@@ -162,6 +190,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1a2ff5fc5f20977686f1378acc4b862e",
     "url": "/static/media/rich-people.1a2ff5fc.jpg"
+  },
+  {
+    "revision": "338793b4d187b0d1ff9242f40792ab24",
+    "url": "/static/media/richest-man-in-babylon.338793b4.jpeg"
   },
   {
     "revision": "72891e1f958dbf1d14ce8cedf8f732c1",
@@ -196,8 +228,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/steve-jobs.12471b5e.jpg"
   },
   {
+    "revision": "acd2304310edcfabc501e3d1b06c8e80",
+    "url": "/static/media/stoic-challenge.acd23043.jpg"
+  },
+  {
     "revision": "dcb7a8f6ed8dce8c13a2013f13fb2cd1",
     "url": "/static/media/sun-her-flowers.dcb7a8f6.jpg"
+  },
+  {
+    "revision": "dd8e0d6a022dbddc5a503776db0fe905",
+    "url": "/static/media/thinking-in-bets.dd8e0d6a.jpeg"
   },
   {
     "revision": "8bab01c54a04509f5bbc7c7a1524566b",
